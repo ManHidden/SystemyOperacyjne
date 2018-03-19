@@ -5,6 +5,6 @@
 #ifndef SO_PROC_ID_H
 #define SO_PROC_ID_H
 
-void zadanie1();
+void proc_id();
 
 #endif //SO_PROC_ID_H

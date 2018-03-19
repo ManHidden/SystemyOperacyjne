@@ -5,9 +5,10 @@
 #include <unistd.h>
 
 
-void zadanie1(){
+void proc_id(){
     __pid_t pid;
 
-    printf("               PID: %d, PPID: %d, PGID: %d, UID: %d, GID: %d\n", getpid(), getppid(), getpgid(pid), getuid(), getgid());
+    printf("PID: %d, PPID: %d, PGID: %d, UID: %d, GID: %d\n", getpid(), getppid(), getpgid(pid), getuid(), getgid());
+    sleep(1);
 }
 

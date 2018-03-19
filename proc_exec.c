@@ -18,7 +18,7 @@ void proc_exec(){
                 perror("Nie udało się przeprowadzić forku");
                 exit(1);
             case 0:
-                execl("/home/patryk/CLionProjects/SO/proc_fork","proc_fork", 0);
+                execl("proc_id","proc_id", NULL);
             default:
                 wait(&status);
         }

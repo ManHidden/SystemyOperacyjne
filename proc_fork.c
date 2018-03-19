@@ -22,3 +22,9 @@ void proc_fork(){
         }
     }
 }
+
+int main(){
+    proc_fork();
+
+    return 0;
+}
